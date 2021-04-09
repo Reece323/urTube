@@ -6,6 +6,12 @@
   display: grid;
   grid: auto / auto;
   justify-content: center;
+  background-image: linear-gradient(
+  to bottom right,
+  #00527a,
+  #00576d ,
+  #2c4d84 ,
+  #414244);
 }
 
 @media all and (min-width: 562px) {

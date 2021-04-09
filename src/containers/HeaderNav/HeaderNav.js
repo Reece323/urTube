@@ -25,9 +25,10 @@ export class HeaderNav extends React.Component {
             <Form onSubmit={this.onSubmit}>
               {/* 4 */}
               <Form.Field>
-                <Input placeholder='Search'
-                       size='small'
-                       action='Go'
+                <Input transparent placeholder='Search e.g. Does Biden know who he is?'
+                       icon='search'
+                       iconPosition='left'
+                       size='large'
                        value={this.state.query}
                        onChange={this.onInputChange}
                 />

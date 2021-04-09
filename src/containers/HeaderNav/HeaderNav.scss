@@ -4,17 +4,22 @@
   we use this rule to tweak the SCSS
 */
 .ui.menu.top-menu {
+  background-image: linear-gradient(#243b55, #141e30); //243b55
   border: none;
   .logo {
     width: $sidebar-left-width;
   }
   .nav-container {
     flex-grow: 1;
-    padding: 0;
+    padding: 4.8px;
 
     .search-input {
       padding-left: 0;
-      width: 33%;
+      width: 50%;
+      ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: #abe4ff;
+        opacity: 1; /* Firefox */
+      }
 
       form {
         width: 100%;
@@ -23,6 +28,7 @@
   }
 
   .header-icon {
-    color: #a0a0a0;
+    color: #006b8b;
   }
+
 }

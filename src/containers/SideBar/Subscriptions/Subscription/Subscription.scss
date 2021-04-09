@@ -1,16 +1,22 @@
 @import '../../../../styles/shared.scss';
 
 .subscription {
+  color: #008087;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-weight: bolder;
+  text-shadow: 2px 3px black;
 
   i.icon {
-    color: $red;
+    color: #00c3ff;
+    text-shadow: 2px 1px rgb(0, 100, 118);
   }
 
   .new-videos-count {
-    color: $grey;
+    color: #00c3ff;
+    font-weight: bold;
+    text-shadow: 2px 3px black;
   }
 }
